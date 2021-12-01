@@ -3,7 +3,7 @@
 /** Responsive start **/
 @media (min-width: 320px) and (max-width: 480px) {
     .site-branding a img{
-        width: 140px;
+        width: 120px;
     }
     .header-section{
         max-height: 140vh !important;
@@ -18,20 +18,24 @@
     .text-box{
         margin-top: 0px !important;
         padding: 0px 6px 0px 5px  !important;
+        text-align: center !important;
     }
     .text-box h5{
         font-size: 14px !important;
+        text-align: center !important;
     }
     .text-box h5 i{
-        font-size: 15px !important;
+        font-size: 12px !important;
+        visibility: hidden !important;
     }
     .text-box h1{
-        font-size: 20px !important;
+        font-size: 18px !important;
         line-height: 28px !important;
         margin-top: 10px !important;
+        text-align: center !important;
     }
     .text-box p{
-        font-size: 16px !important;
+        font-size: 15px !important;
         margin-bottom: 20px !important;
     }
     .text-box a{
@@ -47,8 +51,8 @@
     .right-bg img{
         position: absolute !important;
         right: 60px !important;
-        margin-top: -42px;
-        width: 72% !important;
+        margin-top: -10px;
+        width: 80% !important;
     }
     .about-section .small-icon2{
         width: 20px !important;
